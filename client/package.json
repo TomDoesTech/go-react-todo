@@ -1,0 +1,25 @@
+{
+  "name": "client",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@mantine/core": "^3.6.14",
+    "@mantine/hooks": "^3.6.14",
+    "@primer/octicons-react": "^17.0.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "swr": "^1.2.2"
+  },
+  "devDependencies": {
+    "@types/react": "^17.0.33",
+    "@types/react-dom": "^17.0.10",
+    "@vitejs/plugin-react": "^1.0.7",
+    "typescript": "^4.5.4",
+    "vite": "^2.8.0"
+  }
+}
